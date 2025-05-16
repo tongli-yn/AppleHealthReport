@@ -1,7 +1,7 @@
 import Foundation
 
 class GPTService {
-    private let apiKey = "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" //  OpenAI API Key
+    private let apiKey = "your OpenAI API Key"  
     private let endpoint = "https://api.openai.com/v1/chat/completions"
     
     func generateHealthSummary(from input: String, completion: @escaping (String?) -> Void) {
